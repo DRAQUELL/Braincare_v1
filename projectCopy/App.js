@@ -324,6 +324,7 @@ import ContactUsScreen from './screens/ContactUsScreen';
 import TumorDetectionScreen from './screens/TumorDetectionScreen';
 import ChatBot from './chatBot/index'
 import TestScreen from './screens/TestScreen';
+import TensorDetection from './screens/TensorDetection';
 
 import axios from 'axios';
 import Config from 'react-native-config';
@@ -343,6 +344,7 @@ export default function App() {
         <Stack.Screen name="chatbot" component={ChatBot} />
         
         <Stack.Screen name="Test" component={TestScreen} />
+        <Stack.Screen name="Tensor" component={TensorDetection} />
 
       </Stack.Navigator>
     </NavigationContainer>

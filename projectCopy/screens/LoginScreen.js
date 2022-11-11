@@ -70,6 +70,13 @@ const LoginScreen = ({route,navigation}) => {
           <Text style={styles.buttonText}>Test Button</Text>
           
         </TouchableOpacity>
+        <TouchableOpacity
+          onPress={() => {alert('Tensor Screen');navigation.navigate('Tensor')}}
+          style={styles.button}
+        >
+          <Text style={styles.buttonText}>Tensor Button</Text>
+          
+        </TouchableOpacity>
       </View>
 
     </KeyboardAvoidingView>
